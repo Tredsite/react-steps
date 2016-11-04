@@ -1,27 +1,67 @@
 {
-  "name": "react-steps",
-  "version": "0.0.4",
-  "description": "Steps component for react",
-  "main": "dist/react-steps.js",
-  "scripts": {
-    "prepublish": "npm build",
-    "build": "webpack",
-    "buildExample": "NODE_ENV=production webpack --config webpack.config.example.js"
+  "_args": [
+    [
+      {
+        "hosted": {
+          "directUrl": "https://raw.githubusercontent.com/tredsite/react-steps/master/package.json",
+          "gitUrl": "git://github.com/tredsite/react-steps.git",
+          "httpsUrl": "git+https://github.com/tredsite/react-steps.git",
+          "shortcut": "github:tredsite/react-steps",
+          "ssh": "git@github.com:tredsite/react-steps.git",
+          "sshUrl": "git+ssh://git@github.com/tredsite/react-steps.git",
+          "type": "github"
+        },
+        "name": "react-steps",
+        "raw": "react-steps@github:tredsite/react-steps",
+        "rawSpec": "github:tredsite/react-steps",
+        "scope": null,
+        "spec": "github:tredsite/react-steps",
+        "type": "hosted"
+      },
+      "/Users/seanj/Projects/tred-web/web/node"
+    ]
+  ],
+  "_from": "tredsite/react-steps",
+  "_id": "react-steps@0.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-steps",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/tredsite/react-steps/master/package.json",
+      "gitUrl": "git://github.com/tredsite/react-steps.git",
+      "httpsUrl": "git+https://github.com/tredsite/react-steps.git",
+      "shortcut": "github:tredsite/react-steps",
+      "ssh": "git@github.com:tredsite/react-steps.git",
+      "sshUrl": "git+ssh://git@github.com/tredsite/react-steps.git",
+      "type": "github"
+    },
+    "name": "react-steps",
+    "raw": "react-steps@github:tredsite/react-steps",
+    "rawSpec": "github:tredsite/react-steps",
+    "scope": null,
+    "spec": "github:tredsite/react-steps",
+    "type": "hosted"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jakubzloczewski/react-steps.git"
-  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/tredsite/react-steps.git#250fc21212f6278026636a968fa976db031fc716",
+  "_shasum": "40829a588df5c4c03ff12b16cc6f98538e9604aa",
+  "_shrinkwrap": null,
+  "_spec": "react-steps@github:tredsite/react-steps",
+  "_where": "/Users/seanj/Projects/tred-web/web/node",
   "author": {
-    "name": "Jakub Złoczewski",
     "email": "jzlocz@gmail.com",
+    "name": "Jakub Złoczewski",
     "url": "https://github.com/jakubzloczewski"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jakubzloczewski/react-steps/issues"
   },
-  "homepage": "https://github.com/jakubzloczewski/react-steps#readlsme",
+  "dependencies": {},
+  "description": "Steps component for react",
   "devDependencies": {
     "babel-core": "6.17.0",
     "babel-loader": "6.2.5",
@@ -37,10 +77,22 @@
     "style-loader": "0.13.1",
     "webpack": "1.13.2"
   },
+  "gitHead": "58a0c759fc030f1e5bcf58a1b908931a81b9766e",
+  "homepage": "https://github.com/jakubzloczewski/react-steps#readlsme",
+  "license": "MIT",
+  "main": "dist/react-steps.js",
+  "name": "react-steps",
+  "optionalDependencies": {},
   "readme": "# react-steps\r\nSteps component for react\r\n\r\nDemo : http://jakubzloczewski.github.io/react-steps/\r\n\r\n## Instructions\r\n\r\nTo install this module run:\r\n```sh\r\nnpm install react-steps\r\n```\r\n\r\nrequire it inside of your app\r\n```js\r\nvar Steps = require('react-steps');\r\n```\r\n\r\nto compile example with webpack\r\n\r\n```sh\r\nwebpack\r\n```\r\n\r\nTu run example localy just open ./example/index.html in browser\r\n",
   "readmeFilename": "README.md",
-  "gitHead": "58a0c759fc030f1e5bcf58a1b908931a81b9766e",
-  "_id": "react-steps@0.0.3-c",
-  "_shasum": "8da54945d1c952cab273d0d663f6970c7f26b7e4",
-  "_from": "react-steps@0.0.3-c"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubzloczewski/react-steps.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "buildExample": "NODE_ENV=production webpack --config webpack.config.example.js",
+    "prepublish": "npm build"
+  },
+  "version": "0.0.4"
 }
